@@ -8,9 +8,18 @@ export const App = () => {
    return (
       <BrowserRouter>
          <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
-            <Link to="/">
-               <img src={logo} alt="logo" className="w-28 object-contain" />
-            </Link>
+            <div className="flex items-center gap-4">
+               <Link to="/">
+                  <img src={logo} alt="logo" className="w-28 object-contain" />
+               </Link>
+
+               <Link
+                  to="/"
+                  className="font-mono font-bold text-2xl px-9 bg-clip-text text-transparent bg-logo-gradient"
+               >
+                  kre.AI.te
+               </Link>
+            </div>
 
             <Link
                to="/create-post"
