@@ -15,7 +15,7 @@ export const App = () => {
 
                <Link
                   to="/"
-                  className="font-mono font-bold text-2xl px-9 bg-clip-text text-transparent bg-logo-gradient"
+                  className="font-mono font-bold text-2xl px-10 bg-clip-text text-transparent bg-logo-gradient"
                >
                   kre.AI.te
                </Link>
